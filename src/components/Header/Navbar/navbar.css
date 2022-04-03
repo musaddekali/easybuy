@@ -296,4 +296,11 @@ select.nav-search-select-dropdown {
   .nav-belt > .nav-right {
     order: 2;
   }
+
+ .nav-belt > .nav-left {
+    flex-wrap: wrap;
+  }
+ .nav-belt .nav-tools {
+    flex-wrap: wrap;
+  }
 }
