@@ -1,0 +1,48 @@
+:root {
+  --blue: hsl(216, 98%, 52%);
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: hsl(354, 70%, 54%);
+  --orange: hsl(27, 98%, 54%);
+  --yellow: hsl(45, 100%, 51%);
+  --green: hsl(152, 69%, 31%);
+  --teal: #20c997;
+  --cyan: hsl(190, 90%, 50%);
+  --white: #fff;
+
+  --gray: hsl(208, 7%, 46%);
+  --gray-dark: hsl(210, 10%, 23%);
+  --gray-100: hsl(210, 17%, 98%);
+  --gray-200: hsl(210, 16%, 93%);
+  --gray-300: hsl(210, 14%, 89%);
+  --gray-400: hsl(210, 14%, 83%);
+  --gray-500: hsl(210, 11%, 71%);
+  --gray-600: hsl(208, 7%, 46%);
+  --gray-700: hsl(210, 9%, 31%);
+  --gray-800: hsl(210, 10%, 23%);
+  --gray-900: hsl(210, 11%, 15%);
+
+  --primary: var(--blue);
+  --secondary: var(--gray-600);
+  --success: var(--green);
+  --info: var(--cyan);
+  --warning: var(--yellow);
+  --danger: var(--red);
+  --light: var(--gray-100);
+  --dark: var(--gray-900);
+
+  --primary-rgb: 13, 109, 253;
+  --secondary-rgb: 109, 118, 126;
+  --success-rgb: 25, 134, 83;
+  --info-rgb: 13, 204, 242;
+  --warning-rgb: 255, 193, 5;
+  --danger-rgb: 220, 56, 72;
+  --light-rgb: 249, 250, 251;
+  --dark-rgb: 34, 38, 42;
+  --black-rgb: 0, 0, 0;
+  --body-color-rgb: 34, 38, 42;
+
+  --body-color: var(--gray-900);
+  --body-bg: var(--white);
+}
