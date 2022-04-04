@@ -2,7 +2,7 @@ import { FaStar, FaShoppingCart } from 'react-icons/fa';
 import './product-card.css';
 
 const ProductCard = ({ products }) => {
-    const { title, desc, img, price } = products;
+    const { title, img, price } = products;
     return (
         <article className="pd-card">
             <div className="pd-card-header">
