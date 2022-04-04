@@ -1,11 +1,13 @@
 import Header from '../Header/Header';
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-   <>
-    <Header/>
-    {children}
-   </>
+    <>
+      <Header />
+      <main className="main">
+        {children}
+      </main>
+    </>
   )
 }
 

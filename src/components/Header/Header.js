@@ -1,10 +1,13 @@
-import Navbar from './Navbar/Navbar';
+import NavBelt from './NavBelt/NavBelt';
+import NavMain from './NavMain/NavMain';
+
 import './header.css';
 
 const Header = () => {
   return (
     <header className="header">
-      <Navbar />
+      <NavBelt />
+      <NavMain />
     </header>
   )
 }

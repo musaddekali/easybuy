@@ -1,7 +1,7 @@
 import { BiLocationPlus, BiSearch, BiCart, BiFlag, BiChevronDown } from 'react-icons/bi';
-import './navbar.css';
+import './nav-belt.css';
 
-const Navbar = () => {
+const NavBelt = () => {
   return (
     <nav className="nav-belt container-fluid">
       <div className="nav-left">
@@ -104,4 +104,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
+export default NavBelt;

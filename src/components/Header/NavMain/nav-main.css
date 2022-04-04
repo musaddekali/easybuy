@@ -1,0 +1,64 @@
+.nav-main {
+  line-height: 1em;
+  background: var(--gray-800);
+  color: #fff;
+}
+
+.nav-main .nav-hamburger-menu {
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 0.125rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.nav-main .nav-hamburger-menu:hover {
+    background: var(--gray-600);
+}
+
+.nav-main .nav-hamburger-menu .hm-icon {
+  font-size: 18px;
+  margin-right: 0.25rem;
+}
+
+.nav-main .nav-hamburger-menu .hm-icon-label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+.nav-main .nav-fill {
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.nav-main .nav-shop-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-shop {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.nav-main .nav-shop .nav-a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  margin: 5px 0 5px 4px;
+  border-radius: 0.125rem;
+}
+
+.nav-main .nav-shop .nav-a:hover {
+    border-color: #fff;
+}

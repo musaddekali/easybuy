@@ -1,13 +1,14 @@
 .nav-belt {
   min-width: 1024px;
   height: 60px;
+  line-height: 1em;
   display: flex;
   background-color: var(--gray-900);
 }
 
-.nav-left,
-.nav-fill,
-.nav-right {
+.nav-belt .nav-left,
+.nav-belt .nav-fill,
+.nav-belt .nav-right {
   display: flex;
 }
 
@@ -105,7 +106,7 @@
 .nav-search-bar-form .nav-search-facade .nav-icon {
   position: absolute;
   right: 5px;
-  top: 4px;
+  top: 8px;
   font-size: 18px;
   color: var(--gray-700);
 }
@@ -241,7 +242,8 @@ select.nav-search-select-dropdown {
 .nav-tools .nav-line-1 {
   font-size: 12px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 14px;
+  margin-bottom: .125rem;
 }
 
 .nav-tools .nav-line-2 {
@@ -266,7 +268,7 @@ select.nav-search-select-dropdown {
 
 .nav-cart-count {
   position: absolute;
-  top: 8px;
+  top: -6px;
   left: 50%;
   transform: translateX(-50%);
   line-height: 16px;
