@@ -1,20 +1,26 @@
 .pd-card {
   min-width: 1px;
-  border: 1px solid gray;
   border-radius: 0.5rem;
   overflow: hidden;
+  box-shadow: 2px 4px 12px 0 rgb(0 0 0 / 32%);
+}
+
+.pd-card:hover .pd-img {
+  transform: scale(1.1);
 }
 
 .pd-card-img {
   height: 150px;
+  display: block;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
-.pd-card-img img {
+.pd-card-img .pd-img {
   width: 100%;
   height: 150px;
   object-fit: cover;
+  transition: 0.3s ease-in-out;
 }
 
 .pd-card-body {
@@ -35,7 +41,7 @@
 }
 
 .pd-card-title:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .pd-card-footer {

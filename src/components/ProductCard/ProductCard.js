@@ -7,7 +7,7 @@ const ProductCard = ({ products }) => {
         <article className="pd-card">
             <div className="pd-card-header">
                 <a href='/' className="pd-card-img">
-                    <img src={img} alt={title} />
+                    <img src={img} alt={title}  className="pd-img"/>
                 </a>
             </div>
             <div className="pd-card-body">

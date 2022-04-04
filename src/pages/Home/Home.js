@@ -7,8 +7,10 @@ const Home = () => {
 
   return (
     <>
-      <h1>Home Page</h1>
       <section className="products-wrapper">
+        <div className="products-title">
+          <h3>Letest Products</h3>
+        </div>
         <div className="product-list">
           {
             products.map(item => (
