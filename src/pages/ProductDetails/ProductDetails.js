@@ -3,7 +3,7 @@ import './product-details.css';
 import { products } from '../../FakeProduct/fakeProduct';
 
 const ProductDetails = () => {
-    const { title, img, desc, id, price } = products[0];
+    const { title, img, desc, price } = products[0];
     return (
         <section className="product-details-wrapper">
             <div className="product-details">
