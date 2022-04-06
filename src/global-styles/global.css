@@ -46,3 +46,7 @@
   --body-color: var(--gray-900);
   --body-bg: var(--white);
 }
+
+.main {
+  padding: 30px 0;
+}

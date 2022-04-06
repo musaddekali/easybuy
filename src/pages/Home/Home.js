@@ -3,8 +3,6 @@ import { products } from "../../FakeProduct/fakeProduct";
 import './home.css';
 
 const Home = () => {
-  console.log(products);
-
   return (
     <>
       <section className="products-wrapper">
