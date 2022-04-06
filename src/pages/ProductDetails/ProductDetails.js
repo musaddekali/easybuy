@@ -43,8 +43,8 @@ const ProductDetails = () => {
                             </div>
                             {/* add to cart and buy area  */}
                             <div className="buy-item">
-                                <button className="add-to-cart-btn">Add to cart <FaShoppingCart /></button>
-                                <button className="buy-now-btn">Buy Now</button>
+                                <button className="add-to-cart-btn bg-orange">Add to cart <FaShoppingCart /></button>
+                                <button className="buy-now-btn bg-yellow">Buy Now</button>
                             </div>
                         </div>
                     </div>

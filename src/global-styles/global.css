@@ -50,3 +50,11 @@
 .main {
   padding: 30px 0;
 }
+
+.bg-yellow {
+  background: var(--yellow);
+}
+
+.bg-orange {
+background: var(--orange)
+}
