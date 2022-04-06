@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { BiLocationPlus, BiSearch, BiCart, BiFlag, BiChevronDown } from 'react-icons/bi';
 import './nav-belt.css';
 
@@ -6,9 +7,9 @@ const NavBelt = () => {
     <nav className="nav-belt container-fluid">
       <div className="nav-left">
         <div className="nav-logo">
-          <a href="/" className="logo">
+          <Link to="/" className="logo">
             <h3>easyBuy</h3>
-          </a>
+          </Link>
         </div>
         <div className="nav-global-location">
           <span className="ngl-icon">
@@ -81,15 +82,15 @@ const NavBelt = () => {
               </select>
             </div>
           </div>
-          <a href="/" className="nav-a nav-link-accountList">
+          <Link to="#" className="nav-a nav-link-accountList">
             <span className="nav-line-1">Hello, Login</span>
             <span className="nav-line-2">Account & Lists  <BiChevronDown /></span>
-          </a>
-          <a href="/" className="nav-a">
+          </Link>
+          <Link to="#" className="nav-a">
             <span className="nav-line-1">Returns</span>
             <span className="nav-line-2">& Orders</span>
-          </a>
-          <a href="/" className="nav-a" id="nav-cart" aria-label="cart">
+          </Link>
+          <Link to="/cart" className="nav-a" id="nav-cart" aria-label="cart">
             <div className="nav-cart-count-container">
               <span className="nav-cart-count" id="progressive-content">8</span>
               <span className="nav-cart-icon">
@@ -97,7 +98,7 @@ const NavBelt = () => {
               </span>
             </div>
             <div className="nav-cart-text-container">Cart</div>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

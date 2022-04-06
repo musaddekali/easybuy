@@ -9,6 +9,7 @@ export const products = [
         desc: 'Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
         img: bike1,
         price: 399.55,
+        inStock: true,
         quantity: 0,
     },
     {
@@ -17,6 +18,7 @@ export const products = [
         desc: 'Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
         img: bike2,
         price: 480,
+        inStock: true,
         quantity: 0,
     },
     {
@@ -25,6 +27,7 @@ export const products = [
         desc: 'Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
         img: bike3,
         price: 250,
+        inStock: true,
         quantity: 0,
     },
     {
@@ -33,6 +36,7 @@ export const products = [
         desc: 'Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
         img: bike4,
         price: 800,
+        inStock: true,
         quantity: 0,
     },
 ];

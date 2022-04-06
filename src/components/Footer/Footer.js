@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { BiChevronRight } from 'react-icons/bi';
 import './footer.css';
 
@@ -9,47 +10,47 @@ const Footer = () => {
                     <div className="footer-links-col">
                         <h3 className="footer-links-col-header">Get to Know Us</h3>
                         <ul>
-                            <li><a href="/">Careers</a></li>
-                            <li><a href="/">Blog</a></li>
-                            <li><a href="/">About easyBuy</a></li>
-                            <li><a href="/">Investor Relations</a></li>
-                            <li><a href="/">easyBuy Devices</a></li>
-                            <li><a href="/">easyBuy Science</a></li>
+                            <li><Link to="#">Careers</Link></li>
+                            <li><Link to="#">Blog</Link></li>
+                            <li><Link to="#">About easyBuy</Link></li>
+                            <li><Link to="#">Investor Relations</Link></li>
+                            <li><Link to="#">easyBuy Devices</Link></li>
+                            <li><Link to="#">easyBuy Science</Link></li>
                         </ul>
                     </div>
                     <div className="footer-links-col">
                         <h3 className="footer-links-col-header">Make Money with Us</h3>
                         <ul>
-                            <li><a href="/">Sell products on easyBuy</a></li>
-                            <li><a href="/">Sell on easyBuy Business</a></li>
-                            <li><a href="/">Sell apps on easyBuy</a></li>
-                            <li><a href="/">Become an Affiliate</a></li>
-                            <li><a href="/">Advertise Your Products</a></li>
-                            <li><a href="/">Self-Publish with Us</a></li>
-                            <li><a href="/">Host an easyBuy Hub</a></li>
-                            <li><a className="nav-a-last" href="/"><i><BiChevronRight /></i> See More Make Money with Us</a></li>
+                            <li><Link to="#">Sell products on easyBuy</Link></li>
+                            <li><Link to="#">Sell on easyBuy Business</Link></li>
+                            <li><Link to="#">Sell apps on easyBuy</Link></li>
+                            <li><Link to="#">Become an Affiliate</Link></li>
+                            <li><Link to="#">Advertise Your Products</Link></li>
+                            <li><Link to="#">Self-Publish with Us</Link></li>
+                            <li><Link to="#">Host an easyBuy Hub</Link></li>
+                            <li><Link to="/" className="nav-a-last"><i><BiChevronRight /></i> See More Make Money with Us</Link></li>
                         </ul>
                     </div>
                     <div className="footer-links-col">
                         <h3 className="footer-links-col-header">easyBuy Payment Products</h3>
                         <ul>
-                            <li><a href="/">easyBuy Business Card</a></li>
-                            <li><a href="/">Shop with Points</a></li>
-                            <li><a href="/">Reload Your Balance</a></li>
-                            <li><a href="/">easyBuy Currency Converter</a></li>
+                            <li><Link to="#">easyBuy Business Card</Link></li>
+                            <li><Link to="#">Shop with Points</Link></li>
+                            <li><Link to="#">Reload Your Balance</Link></li>
+                            <li><Link to="#">easyBuy Currency Converter</Link></li>
                         </ul>
                     </div>
                     <div className="footer-links-col">
                         <h3 className="footer-links-col-header">Let Us Help You</h3>
                         <ul>
-                            <li><a href="/">Amazon and COVID-19</a></li>
-                            <li><a href="/">Your Account</a></li>
-                            <li><a href="/">Your Orders</a></li>
-                            <li><a href="/">Shipping Rates & Policies</a></li>
-                            <li><a href="/">Returns & Replacements</a></li>
-                            <li><a href="/">Manage Your Content and Devices</a></li>
-                            <li><a href="/">Amazon Assistant</a></li>
-                            <li><a href="/">Help</a></li>
+                            <li><Link to="#">Amazon and COVID-19</Link></li>
+                            <li><Link to="#">Your Account</Link></li>
+                            <li><Link to="#">Your Orders</Link></li>
+                            <li><Link to="#">Shipping Rates & Policies</Link></li>
+                            <li><Link to="#">Returns & Replacements</Link></li>
+                            <li><Link to="#">Manage Your Content and Devices</Link></li>
+                            <li><Link to="#">Amazon Assistant</Link></li>
+                            <li><Link to="#">Help</Link></li>
                         </ul>
 
                     </div>

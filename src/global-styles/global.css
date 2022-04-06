@@ -51,10 +51,97 @@
   padding: 30px 0;
 }
 
+/* Button Styles  */
+.btn-base {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  line-height: 1;
+}
+
+.btn-base:hover {
+  opacity: 0.8;
+}
+
+.btn-base:active {
+  opacity: 1;
+}
+
+/* Background Styles */
 .bg-yellow {
   background: var(--yellow);
 }
 
 .bg-orange {
-background: var(--orange)
+  background: var(--orange);
+}
+
+/* Section Title  */
+.section-title {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.section-title h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  position: relative;
+  display: inline-block;
+  color: var(--gray-900);
+}
+
+.section-title h3::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 100%;
+  border-radius: 50px;
+  background: var(--warning);
+}
+
+.section-title h3::after {
+  content: "";
+  height: 12px;
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  background: var(--orange);
+}
+
+/* Product Quantity Box  */
+.quantity-container {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  margin-bottom: 1rem;
+  width: 140px;
+}
+
+.quantity-container .quantity-input {
+  width: 100%;
+}
+
+.quantity-container .decrease-btn,
+.quantity-container .increase-btn {
+  border: 1px solid var(--gray-500);
+  outline: 0;
+  box-shadow: none;
+  line-height: 1;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.quantity-container .decrease-btn:hover,
+.quantity-container .increase-btn:hover {
+  background: var(--gray-400);
+}
+
+.quantity-container .decrease-btn:active,
+.quantity-container .increase-btn:active {
+  background: var(--gray-500);
 }

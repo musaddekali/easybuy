@@ -22,7 +22,7 @@ const ProductCard = ({ products }) => {
                 </div>
                 <div className="pd-card-footer-main">
                     <h4 className="price">${price}</h4>
-                    <button className="pd-card-cart-btn">Add to Cart <i><FaShoppingCart /></i></button>
+                    <button className="btn-base bg-yellow pd-card-cart-btn">Add to Cart <i><FaShoppingCart /></i></button>
                 </div>
             </div>
         </article>

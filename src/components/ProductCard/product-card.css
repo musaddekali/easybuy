@@ -78,13 +78,9 @@
 
 .pd-card-cart-btn {
   border: 1px solid transparent;
-  outline: none;
-  line-height: 1;
-  box-shadow: none;
   font-size: 14px;
   font-weight: 500;
   padding: 0.75rem;
-  background: var(--warning);
   color: var(--gray-800);
   border-radius: 0.25rem;
 }
