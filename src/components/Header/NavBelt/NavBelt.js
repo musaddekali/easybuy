@@ -1,8 +1,17 @@
-import { Link } from 'react-router-dom';
-import { BiLocationPlus, BiSearch, BiCart, BiFlag, BiChevronDown } from 'react-icons/bi';
-import './nav-belt.css';
+import { Link } from "react-router-dom";
+import {
+  BiLocationPlus,
+  BiSearch,
+  BiCart,
+  BiFlag,
+  BiChevronDown,
+} from "react-icons/bi";
+import "./nav-belt.css";
+import { useGlobalContext } from "../../context/context";
 
 const NavBelt = () => {
+  const { quantity } = useGlobalContext();
+
   return (
     <nav className="nav-belt container-fluid">
       <div className="nav-left">
@@ -32,7 +41,10 @@ const NavBelt = () => {
                     <BiChevronDown />
                   </i>
                 </div>
-                <select className="nav-search-select-dropdown" name="product-category">
+                <select
+                  className="nav-search-select-dropdown"
+                  name="product-category"
+                >
                   <option value="all">All Departments</option>
                   <option value="grossery">Gorssery</option>
                   <option value="electronic">Electronic</option>
@@ -56,7 +68,11 @@ const NavBelt = () => {
             </div>
             <div className="nav-right">
               <div className="nav-search-submit">
-                <input type="submit" value="Go" className="nav-search-submit-btn" />
+                <input
+                  type="submit"
+                  value="Go"
+                  className="nav-search-submit-btn"
+                />
                 <span className="nav-search-submit-icon">
                   <BiSearch />
                 </span>
@@ -67,12 +83,20 @@ const NavBelt = () => {
       </div>
       <div className="nav-right">
         <div className="nav-tools">
-          <div className="nav-a" id="selectLanguage" aria-label='Select a language'>
+          <div
+            className="nav-a"
+            id="selectLanguage"
+            aria-label="Select a language"
+          >
             <div className="nav-select-language-container">
               <span className="nav-select-lang-icon">
                 <BiFlag />
               </span>
-              <select className="nav-select-language" name="language" aria-describedby="selectLanguage">
+              <select
+                className="nav-select-language"
+                name="language"
+                aria-describedby="selectLanguage"
+              >
                 <option value="us">English</option>
                 <option value="frk">Fanch</option>
                 <option value="bd">Bangla</option>
@@ -82,17 +106,21 @@ const NavBelt = () => {
               </select>
             </div>
           </div>
-          <Link to="#" className="nav-a nav-link-accountList">
+          {/* <Link to="#" className="nav-a nav-link-accountList">
             <span className="nav-line-1">Hello, Login</span>
-            <span className="nav-line-2">Account & Lists  <BiChevronDown /></span>
-          </Link>
-          <Link to="#" className="nav-a">
+            <span className="nav-line-2">
+              Account & Lists <BiChevronDown />
+            </span>
+          </Link> */}
+          {/* <Link to="#" className="nav-a">
             <span className="nav-line-1">Returns</span>
             <span className="nav-line-2">& Orders</span>
-          </Link>
+          </Link> */}
           <Link to="/cart" className="nav-a" id="nav-cart" aria-label="cart">
             <div className="nav-cart-count-container">
-              <span className="nav-cart-count" id="progressive-content">8</span>
+              <span className="nav-cart-count" id="progressive-content">
+                {quantity}
+              </span>
               <span className="nav-cart-icon">
                 <BiCart />
               </span>
@@ -102,7 +130,7 @@ const NavBelt = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default NavBelt;

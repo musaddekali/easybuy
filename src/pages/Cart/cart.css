@@ -98,4 +98,12 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  
+  .cart .cart-right {
+    overflow: hidden;
+  }
+
+  .cart .cart-right .cart-amount {
+    overflow-x: auto;
+  }
 }

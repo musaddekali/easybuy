@@ -1,8 +1,9 @@
-import ProductCard from "../../components/ProductCard/ProductCard";
-import { products } from "../../FakeProduct/fakeProduct";
+import { useGlobalContext } from "../../components/context/context";
+import ProductCard from "./ProductCard/ProductCard";
 import './home.css';
 
 const Home = () => {
+  const {products} = useGlobalContext();
   return (
     <>
       <section className="products-wrapper">
